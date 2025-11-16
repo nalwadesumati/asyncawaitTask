@@ -22,18 +22,18 @@
                         <div class="card-body">
 
                             <div class="form-group mb-3">
-                                <label for="blogTitle" class="form-label">Blog Title</label>
+                                <label for="blogTitle" class="form-label text-center">Blog Title</label>
                                 <input type="text" class="form-control" id="blogTitle" placeholder="Enter blog title">
                             </div>
 
                             <div class="form-group mb-3">
                                 <label for="blogContent" class="form-label">Blog Content</label>
-                                <input type="text" class="form-control" id="blogContent"
-                                    placeholder="Enter blog content">
+                                <textarea class="form-control" id="blogContent" rows="6"
+                                    placeholder="Write your blog content here."></textarea>
                             </div>
 
-                            <button class="btn btn-sm btn-outline-primary btn-block mt-5">Add Blog</button>
-                            <button class="btn btn-sm btn-outline-primary btn-block mt-5 d-none">Update Blog</button>
+                            <button class="btn btn-outline-primary btn-sm btn-block mt-5">Add Blog</button>
+                            <button class="btn btn-outline-primary btn-sm btn-block mt-5 d-none">Update Blog</button>
 
                         </div>
                     </div>
@@ -42,10 +42,21 @@
         </div>
     </div>
 
-
     <div class="container-fluid">
-        <div class="row mt-2" id="blogContainer">
-
+        <div class="row mt-1" id="blogContainer">
+            <div class="col-md-3 col-sm-6 text-center">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Angular</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Angular is a web framework that empowers developers to build fast, reliable applications.
+                            Maintained by a dedicated team at Google, Angular provides a broad suite of tools, APIs, and
+                            libraries to simplify
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
